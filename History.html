@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Computer Science</title> 
+<style>
+* {
+  box-sizing: border-box;
+
+.menu {
+  float: left;
+  width:20%;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  padding: 0 70px;
+  overflow: hidden;
+}
+.button {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 230px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -50px;
+  transition: 0.4s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button2:hover {
+  border-radius: 35px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.31),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+@font-face {
+   font-family: myFirstFont;
+   src: url(RobotoLight.woff);
+}
+
+
+}
+
+</style>
+</head>
+
+
+<div body style="background: url(pic2.jpg);padding: 30px;">
+  <center><h1><i>History of Computer Science</i></h1>
+<button class="button button2"><a href="index.html"<b><span>Home</span></b></a></button>
+<button class="button button2"><a href="History.html"><span>History</span></a></button>
+<button class="button button2"><a href="coding.html"><span>Coding</span></a></button>
+<button class="button button2"><a href="machine_learning.html"><span>Machine Learning</span></a></button>
+<button class="button button2"><a href="enqire.html"><span>Enquiries</span></a></button></center>
+</div>
+
+<div style="overflow:auto">
+  </div>
+
+
+  <div class="main">
+    <h2>Before 1900</h2>
+    <p>People have been using mechanical devices to aid calculation for thousands of years. For example, the abacus probably existed in Babylonia (present-day Iraq) about 3000 B.C.E. The ancient Greeks developed some very sophisticated analog computers. In 1901, an ancient Greek shipwreck was discovered off the island of Antikythera. Inside was a salt-encrusted device (now called the Antikythera mechanism) that consisted of rusted metal gears and pointers. When this c. 80 B.C.E. device was reconstructed, it produced a mechanism for predicting the motions of the stars and planets.
+John Napier (1550-1617), the Scottish inventor of logarithms, invented Napier's rods (sometimes called "Napier's bones") c. 1610 to simplify the task of multiplication.
+
+In 1641 the French mathematician and philosopher Blaise Pascal (1623-1662) built a mechanical adding machine. Similar work was done by Gottfried Wilhelm Leibniz (1646-1716). Leibniz also advocated use of the binary system for doing calculations.
+
+Recently it was discovered that Wilhelm Schickard (1592-1635), a graduate of the University of Tübingen (Germany), constructed such a device in 1623-4, before both Pascal and Leibniz. A brief description of the device is contained in two letters to Johannes Kepler. Unfortunately, at least one copy of the machine burned up in a fire, and Schickard himself died of bubonic plague in 1635, during the Thirty Years' War.
+
+Joseph-Marie Jacquard (1752-1834) invented a loom that could weave complicated patterns described by holes in punched cards. Charles Babbage (1791-1871) worked on two mechanical devices: the Difference Engine and the far more ambitious Analytical Engine (a precursor of the modern digital computer), but neither worked satisfactorily. (Babbage was a bit of an eccentric -- one biographer calls him an "irascible genius" -- and was probably the model for Daniel Doyce in Charles Dickens' novel, Little Dorrit. A little-known fact about Babbage is that he invented the science of dendrochronology -- tree-ring dating -- but never pursued his invention. In his later years, Babbage devoted much of his time to the persecution of street musicians (organ-grinders).) The Difference Engine can be viewed nowadays in the Science Museum in London, England.
+
+One of Babbage's friends, Ada Augusta Byron, Countess of Lovelace (1815-1852), sometimes is called the "first programmer" because of a report she wrote on Babbage's machine. (The programming language Ada was named for her.)
+
+William Stanley Jevons (1835-1882), a British economist and logician, built a machine in 1869 to solve logic problems. It was "the first such machine with sufficient power to solve a complicated problem faster than the problem could be solved without the machine's aid." (Gardner) It is now in the Oxford Museum of the History of Science.
+
+Herman Hollerith (1860-1929) invented the modern punched card for use in a machine he designed to help tabulate the 1890 census.
+
+    </p>
+    <img src="https://www.informationq.com/wp-content/uploads/2016/02/Computer-History-With-Timeline.jpg" style="width:30%">
+    <h2>1900 - 1939: The Rise of Mathematics</h2>
+    <p>Work on calculating machines continued. Some special-purpose calculating machines were built. For example, in 1919, E. O. Carissan (1880-1925), a lieutenant in the French infantry, designed and had built a marvelous mechanical device for factoring integers and testing them for primality. The Spaniard Leonardo Torres y Quevedo (1852-1936) built some electromechanical calculating devices, including one that played simple chess endgames.
+In 1928, the German mathematician David Hilbert (1862-1943) addressed the International Congress of Mathematicians. He posed three questions: (1) Is mathematics complete; i.e. can every mathematical statement be either proved or disproved? (2) Is mathematics consistent, that is, is it true that statements such as "0 = 1" cannot be proved by valid methods? (3) Is mathematics decidable, that is, is there a mechanical method that can be applied to any mathematical assertion and (at least in principle) will eventually tell whether that assertion is true or not? This last question was called the Entscheidungsproblem.
+
+In 1931, Kurt Gödel (1906-1978) answered two of Hilbert's questions. He showed that every sufficiently powerful formal system is either inconsistent or incomplete. Also, if an axiom system is consistent, this consistency cannot be proved within itself. The third question remained open, with 'provable' substituted for 'true'.
+
+In 1936, Alan Turing (1912-1954) provided a solution to Hilbert's Entscheidungsproblem by constructing a formal model of a computer -- the Turing machine -- and showing that there were problems such a machine could not solve. One such problem is the so-called "halting problem": given a Pascal program, does it halt on all inputs?</p>
+    <img src="https://i0.wp.com/ricehistorycorner.com/wp-content/uploads/2017/08/mary-jane-hale-rommel-scrapbook-class-of-1932-math-9000-058.jpg?ssl=1" style="width:30%">
+    <h2>1950's</h2>
+    <p>Grace Murray Hopper (1906-1992) invented the notion of a compiler, at Remington Rand, in 1951. Earlier, in 1947, Hopper found the first computer "bug" -- a real one -- a moth that had gotten into the Harvard Mark II. (Actually, the use of "bug" to mean defect goes back to at least 1889.)
+John Backus and others developed the first FORTRAN compiler in April 1957. LISP, a list-processing language for artificial intelligence programming, was invented by John McCarthy about 1958. Alan Perlis, John Backus, Peter Naur and others developed Algol.
+
+In hardware, Jack Kilby (Texas Instruments) and Robert Noyce (Fairchild Semiconductor) invented the integrated circuit in 1959.
+
+Edsger Dijkstra invented an efficient algorithm for shortest paths in graphs as a demonstration of the ARMAC computer in 1956. He also invented an efficient algorithm for the minimum spanning tree in order to minimize the wiring needed for the X1 computer. (Dijkstra is famous for his caustic, opinionated memos. For example, see his opinions of some programming languages).
+
+In a famous paper that appeared in the journal Mind in 1950, Alan Turing introduced the Turing Test, one of the first efforts in the field of artificial intelligence. He proposed a definition of "thinking" or "consciousness" using a game: a tester would have to decide, on the basis of written conversation, whether the entity in the next room responding to the tester's queries was a human or a computer. If this distinction could not be made, then it could be fairly said that the computer was "thinking".
+
+In 1952, Alan Turing was arrested for "gross indecency" after a burglary led to the discovery of his affair with Arnold Murray. Overt homosexuality was taboo in 1950's England, and Turing was forced to take estrogen "treatments" which rendered him impotent and caused him to grow breasts. On June 7, 1954, despondent over his situation, Turing committed suicide by eating an apple laced with cyanide.</p>
+    <img src="https://t3.ftcdn.net/jpg/09/22/62/46/360_F_922624651_paAo8NELjEjIczjZpN2Rp0gsQxor1cJO.jpg" style="width:30%">
+    <h2>1980</h2>
+    <p>This decade also saw the rise of the personal computer, thanks to Steve Wozniak and Steve Jobs, founders of Apple Computer.
+The first computer viruses are developed c. 1981. The term was coined by Leonard Adleman, now at the University of Southern California.
+
+In 1981, the first truly successful portable computer was marketed, the Osborne I. In 1984, Apple first marketed the Macintosh computer.
+
+In 1987, the US National Science Foundation started NSFnet, precursor to part of today's Internet.</p>
+
+</body>
+</html>
